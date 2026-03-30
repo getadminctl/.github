@@ -9,9 +9,10 @@ Adminctl is a high-performance ecosystem designed to bridge the gap between dist
 ### 🏗️ Enterprise Architecture
 Our system is engineered for scale, supporting multi-node clustering and deep custom observability:
 
-* **[client](./client) (The Edge Agent):** A lightweight Rust binary. Capable of acting as a "Gateway/Proxy," sending real-time telemetry, and executing remote commands like `dnf update -y`.
-* **[ingestion](./ingestion) (The Backbone):** A high-speed Rust ingestion server. Designed for **High-Availability Clustering**, it can be deployed in a distributed mesh to handle massive telemetry loads.
-* **[dashboard](./dashboard) (The Command Center):** A TypeScript & Angular interface for visualizing fleet health and dispatching global orchestration commands.
+* **[client](https://github.com/getadminctl/client) (The Edge Agent):** A lightweight Rust binary. Capable of acting as a "Gateway/Proxy," sending real-time telemetry, and executing remote commands like `dnf update -y`.
+* **[ingestion](https://github.com/getadminctl/ingestion) (The Backbone):** A high-speed Rust ingestion server. Designed for **High-Availability Clustering**, it can be deployed in a distributed mesh to handle massive telemetry loads.
+* **[dashboard](https://github.com/getadminctl/dashboard) (The Command Center):** A TypeScript & Angular interface for visualizing fleet health and dispatching global orchestration commands.
+* **[misc](https://github.com/getadminctl/misc) (Misc stuff):** Misc scripts etc
 
 ---
 
